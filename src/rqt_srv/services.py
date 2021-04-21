@@ -37,7 +37,10 @@ from rqt_msg.messages_widget import MessagesWidget
 
 
 class Services(Plugin):
-#TODO fix the rosmsg.get_service_class function to return a class with slots like rosmsg.get_message_class does so that the recursive functions used to create tree_view elements will work.
+    # TODO fix the rosmsg.get_service_class function to return a class with
+    # slots like rosmsg.get_message_class does so that the recursive functions
+    # used to create tree_view elements will work.
+
     def __init__(self, context):
         super(Services, self).__init__(context)
         self.setObjectName('servicess')
@@ -45,7 +48,8 @@ class Services(Plugin):
         self._widget.setWindowTitle('Service Type Browser')
         self._widget.type_label.setText('Service:')
         if context.serial_number() > 1:
-            self._widget.setWindowTitle(self._widget.windowTitle() + (' (%d)' % context.serial_number()))
+            self._widget.setWindowTitle(
+                self._widget.windowTitle() + (' (%d)' % context.serial_number()))
         context.add_widget(self._widget)
 
     def shutdown_plugin(self):
