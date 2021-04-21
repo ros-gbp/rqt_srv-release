@@ -2,6 +2,16 @@
 Changelog for package rqt_srv
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.9 (2021-04-21)
+------------------
+* Merge pull request `#6 <https://github.com/ros-visualization/rqt_srv/issues/6>`_ from ros-visualization/sloretz-update-packagexml
+  Update package.xml maintainer
+* Update package.xml maintainer
+* fix shebang line for python3 (`#5 <https://github.com/ros-visualization/rqt_srv/issues/5>`_)
+* bump CMake minimum version to avoid CMP0048 warning
+* autopep8 (`#1 <https://github.com/ros-visualization/rqt_srv/issues/1>`_)
+* Contributors: Dirk Thomas, Michael Carroll, Mikael Arguedas, Mike Lautman, Shane Loretz
+
 0.4.8 (2017-04-24)
 ------------------
 
