@@ -2,6 +2,11 @@
 Changelog for package rqt_srv
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.10 (2025-04-10)
+-------------------
+* Import setup from setuptools instead of distutils.core (`#11 <https://github.com/ros-visualization/rqt_srv/issues/11>`_)
+* Contributors: Arne Hitzmann
+
 0.4.9 (2021-04-21)
 ------------------
 * Merge pull request `#6 <https://github.com/ros-visualization/rqt_srv/issues/6>`_ from ros-visualization/sloretz-update-packagexml
