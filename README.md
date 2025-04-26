@@ -1,3 +1,26 @@
+## rqt_srv (noetic) - 0.4.11-1
+
+The packages in the `rqt_srv` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic rqt_srv` on `Sat, 26 Apr 2025 22:33:41 -0000`
+
+The `rqt_srv` package was released.
+
+Version of package(s) in repository `rqt_srv`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_srv.git
+- release repository: https://github.com/ros-gbp/rqt_srv-release.git
+- rosdistro version: `0.4.10-1`
+- old version: `0.4.10-1`
+- new version: `0.4.11-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rqt_srv (noetic) - 0.4.10-1
 
 The packages in the `rqt_srv` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic rqt_srv` on `Thu, 10 Apr 2025 00:45:20 -0000`
